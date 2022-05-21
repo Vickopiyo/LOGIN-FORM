@@ -19,6 +19,7 @@ form{
     align-items: center;
     border-radius: 20px;
     padding-right: 40px;
+    background-color: whitesmoke;
 }
 input,textarea{
     width: 50%;
@@ -32,7 +33,18 @@ input{
     height: 2rem;
     width: ;
 }
+input::placeholder,
+textarea::placeholder{
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
 button{
-    width: 30%;
+    width: 100px;
     margin-left: 20px;
+    padding: 0.8rem,1.6rem;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: blue;
+    height: 20px;
 }
