@@ -4,6 +4,7 @@
     gap: 1rem;
     grid-template-columns: 1fr;
     color: blueviolet;
+    font-family: 'poppins',monospace;
     
     
 }
@@ -20,10 +21,12 @@ form{
     border-radius: 20px;
     padding-right: 40px;
     background-color: whitesmoke;
+    padding-left: 200px;
 }
 input,textarea{
     width: 50%;
     border: 1px solid rgb(1, 3, 82);
+    padding-left: 50px;
    
 }
 textarea{
@@ -40,11 +43,13 @@ textarea::placeholder{
     font-weight: 800;
 }
 button{
-    width: 100px;
+    width: 200px;
     margin-left: 20px;
     padding: 0.8rem,1.6rem;
     border-radius: 5px;
-    color: whitesmoke;
+    color: black;
     background: blue;
     height: 20px;
+    font-weight: bolder;
+    
 }
